@@ -62,9 +62,9 @@ body {
 
 .home {
     height: 100vh;
-    background: url('/home/sithembiso/CoderSthe.github.io/images/profile.jpeg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background: url('../images/profile.jpeg') no-repeat; */
+    background-size: auto;
+    background-position: right;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -281,7 +281,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 120%;
+    width: 170%;
     height: 100%;
     background: #081b29;
     animation: showRight 1s ease forwards;
