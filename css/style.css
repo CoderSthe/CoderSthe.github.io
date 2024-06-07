@@ -358,3 +358,197 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: 1.6s;
 }
+
+.portfolio {
+    height: 100vh;
+    background-size: auto;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.portfolio-content {
+    max-width: 600px;
+}
+
+.portfolio-content h1 {
+    position: relative;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-column {
+    width: 48%;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #081b29;
+    /* background-color: #102533; */
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 16px;
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* .portfolio-content h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1s;
+} */
+
+.portfolio-content h3 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.portfolio-content h3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 2s ease forwards;
+    animation-delay: 1.3s;
+}
+
+.portfolio-content p {
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.portfolio-content p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.6s;
+}
+
+.portfolio-content a {
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.portfolio-content a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 1.6s;
+}
+
+.contact {
+    height: 100vh;
+    background-size: auto;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.contact-content {
+    max-width: 600px;
+}
+
+.contact-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #00abf0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #008bb5;
+}
+
+.contact-content p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 3s ease forwards;
+    animation-delay: 1.6s;
+}
