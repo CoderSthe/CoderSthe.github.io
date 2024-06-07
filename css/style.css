@@ -313,7 +313,10 @@ body {
 
 .about {
     height: 100vh;
-    background-size: auto;
+    background: 
+    linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
+    url('../images/profile.jpeg') no-repeat;
+    background-size: contain;
     background-position: right;
     display: flex;
     align-items: center;
@@ -361,10 +364,39 @@ body {
     animation-delay: 1.6s;
 }
 
+.about-imgHover {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 600px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+    animation: manipActiveHover .1s forwards;
+    animation-delay: 4s;
+    pointer-events: none;
+}
+
+.about-imgHover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 3s;
+    z-index: 100;
+}
+
 .portfolio {
     height: 100vh;
-    background-size: auto;
-    background-position: right;
+    background: 
+    linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
+    url('../images/profile.jpeg') no-repeat;
+    background-size: contain;
+    background-position:right;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -379,6 +411,32 @@ body {
     font-size: 70px;
     font-weight: 700;
     line-height: 1.2;
+}
+
+.portfolio-imgHover {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 600px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+    animation: manipActiveHover .1s forwards;
+    animation-delay: 4s;
+    pointer-events: none;
+}
+
+.portfolio-imgHover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 3s;
+    z-index: 100;
 }
 
 .projects-container {
@@ -488,11 +546,40 @@ body {
 
 .contact {
     height: 100vh;
-    background-size: auto;
+    background: 
+    linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
+    url('../images/profile.jpeg') no-repeat;
+    background-size: contain;
     background-position: right;
     display: flex;
     align-items: center;
     padding: 0 10%;
+}
+
+.contact-imgHover {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 600px;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+    animation: manipActiveHover .1s forwards;
+    animation-delay: 4s;
+    pointer-events: none;
+}
+
+.contact-imgHover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170%;
+    height: 100%;
+    background: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 3s;
+    z-index: 100;
 }
 
 .contact-content {
