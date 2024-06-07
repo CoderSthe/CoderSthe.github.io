@@ -62,8 +62,10 @@ body {
 
 .home {
     height: 100vh;
-    /* background: url('../images/profile.jpeg') no-repeat; */
-    background-size: auto;
+    background: 
+        linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
+        url('../images/profile.jpeg') no-repeat;
+    background-size: contain;
     background-position: right;
     display: flex;
     align-items: center;
@@ -267,7 +269,7 @@ body {
     position: absolute;
     top: 0;
     right: 30px;
-    width: 500px;
+    width: 600px;
     height: 100%;
     background: transparent;
     transition: 3s;
@@ -289,12 +291,12 @@ body {
     z-index: 100;
 }
 
-.home-imgHover:hover {
+/* .home-imgHover:hover {
     background: #081b29;
     opacity: .8;
 
 
-}
+} */
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
