@@ -396,7 +396,27 @@ body {
     background-color: #102533;
 }
 
-.portfolio-content h1::before {
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 16px;
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* .portfolio-content h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -406,7 +426,7 @@ body {
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: 1s;
-}
+} */
 
 .portfolio-content h3 {
     position: relative;
