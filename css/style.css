@@ -364,6 +364,16 @@ body {
     animation-delay: 1.6s;
 }
 
+@media (max-width: 991px) {
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+}
+
 .about-imgHover {
     position: absolute;
     top: 0;
