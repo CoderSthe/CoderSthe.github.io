@@ -6,23 +6,55 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sithembiso Mdhluli - Software Developer</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 
     </head>
     <body>
         <header class="header">
-            <a href="#" class="logo">Sithembiso.</a>
+            <!-- <a href="#" class="logo">Sithembiso.</a> -->
 
-            <nav class="navbar">
-                <a href="index.html" class="active">Home</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top custom-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">My Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <a href="index.html" class="active">Home</a>
                 <a href="about.html">About Me</a>
                 <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact Me</a>
+                <a href="contact.html">Contact Me</a> -->
             </nav>
         </header>
 
-        <section id="home" class="home">
+        <section id="home" class="vh-100 d-flex align-items-center">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h1 class="display-4">Hi, I'm Sithembiso</h1>
+                        <h3 class="text-primary">Software Developer</h3>
+                        <p class="lead">Creating beautiful and functional websites is my passion.</p>
+                        <div class="d-flex justify-content-center mt-4">
+                            <a href="about.html" class="btn btn-primary mx-2">Learn More</a>
+                            <a href="contact.html" class="btn btn-outline-primary mx-2">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="home" class="home">
             <div class="home-content">
                 <h1>Hello World! I'm Sithembiso Mdhluli</h1>
                 <h3>Software Developer</h3>
@@ -53,10 +85,15 @@
             </div>
 
             <span class="home-imgHover"></span>
-        </section>
+        </section> -->
 
         <footer>
             <p>&copy; 2024 Sithembiso Mdhluli. All rights reserved.</p>
         </footer>
+
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>
