@@ -390,6 +390,10 @@ section {
     padding: 0 10%;
 }
 
+.heading-lower {
+    margin-top: 20px;
+}
+
 /* .about {
     height: 100vh;
     background: 
@@ -467,6 +471,18 @@ section {
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
     z-index: 100;
+}
+
+#portfolio {
+    height: 100vh;
+    background: 
+    linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
+    url('../images/profile.jpeg') no-repeat;
+    background-size: contain;
+    background-position:right;
+    display: flex;
+    align-items:flex-start;
+    padding: 0 10%;
 }
 
 .portfolio {
