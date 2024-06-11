@@ -275,10 +275,10 @@ section {
 
 .home-sci {
     position: absolute;
-    bottom: 40px;
+    bottom: 5px;
     width: 170px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 
 .home-sci::before {
@@ -485,7 +485,7 @@ section {
     padding: 0 10%;
 }
 
-.portfolio {
+/* .portfolio {
     height: 100vh;
     background: 
     linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
@@ -495,7 +495,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 10%;
-}
+} */
 
 .portfolio-content {
     max-width: 600px;
@@ -639,7 +639,27 @@ section {
     animation-delay: 1.6s;
 }
 
-.contact {
+#contact {
+    height: 100vh;
+    background: 
+    linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
+    url('../images/profile.jpeg') no-repeat;
+    background-size: contain;
+    background-position:right;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 2rem;
+    /* padding: 0 10%; */
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* .contact {
     height: 100vh;
     background: 
     linear-gradient(rgba(8, 27, 41, 0.7), rgba(8, 27, 41, 0.7)), 
@@ -649,7 +669,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 10%;
-}
+} */
 
 .contact-imgHover {
     position: absolute;
