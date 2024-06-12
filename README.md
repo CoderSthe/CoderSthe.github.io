@@ -2,6 +2,8 @@
 
 Welcome to the repository for Sithembiso Mdhluli's portfolio website. This project showcases my professional journey, skills, and projects in software development. Below you will find information about the website's structure, technologies used, and instructions for setting it up locally.
 
+You can view the live site on the following link: [CoderSthe.github.io](CoderSthe.github.io)
+
 ## Table of Contents
 
 - [Project Structure](#projects)
